@@ -1,0 +1,16 @@
+.custom-button {
+    @apply tw-w-full tw-flex tw-flex-row tw-justify-between tw-items-center tw-p-0 tw-relative;
+    height: 43px;
+    background-color: #222222; 
+    border: none;
+    border-radius: 0.5rem;
+    color: #e8e8e8;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.caret-element {
+    @apply tw-flex tw-items-center tw-absolute; 
+    right: 21px;  
+    height: 13px;
+    width: 22px;
+}

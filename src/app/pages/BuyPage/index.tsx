@@ -35,7 +35,7 @@ export function BuyPage(props: Props) {
   const { t } = useTranslation();
   const account = useAccount();
   const [selectedTab, setSelectedTab] = useState(false);
-  const comingSoon = false;
+  const comingSoon = true;
 
   return (
     <>

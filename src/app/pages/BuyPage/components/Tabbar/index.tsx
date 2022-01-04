@@ -22,11 +22,11 @@ const Tabbar: React.FC<ActiveProps> = ({ setSelectedTab, selectedTab }) => {
     <div className={styles.tabContainer}>
       <div className={styles.barWrapper}>
         <p onClick={() => setSelectedTab(false)}>sovryn swap</p>
-        <Bar active={!selectedTab} />
+        <div className={selectedTab ? styles.barDeactive : styles.barActive} />
       </div>
       <div className={styles.barWrapper}>
         <p onClick={() => setSelectedTab(true)}>bonding curve</p>
-        <Bar active={selectedTab} />
+        <div className={selectedTab ? styles.barActive : styles.barDeactive} />
       </div>
     </div>
   );

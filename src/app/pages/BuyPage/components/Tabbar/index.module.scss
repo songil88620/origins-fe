@@ -19,4 +19,21 @@
       }
     }
 } 
- 
+.bar-deactive{
+  width: 146px;
+  height: 8px;
+  border-radius: 4px;
+  background: 'transparent';
+  @media (max-width: 600px) {
+    width: 106px;
+  }
+}
+.bar-active{
+  width: 146px;
+  height: 8px;
+  border-radius: 4px;
+  background: #FEC004 ;
+  @media (max-width: 600px) {
+    width: 106px;
+  }
+}

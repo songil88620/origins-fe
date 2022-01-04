@@ -13,13 +13,12 @@
   }
 
   .swap-btn {
-    @apply tw-flex tw-items-center tw-justify-center
+    @apply tw-flex tw-items-center tw-p-0 tw-justify-center
       tw-p-0 tw-mx-auto tw-mt-4
       tw-text-xl tw-font-bold
       tw-bg-trade-long tw-rounded-lg;
     height: 60px;
     width: 250px;
-    padding: 0;
   }
 }
 
@@ -31,13 +30,12 @@
   margin: 0 auto;
 
   @screen lg {
-    flex-direction: row;
+    @apply tw-flex-row;
   }
 
   .swap-form {
     @apply tw-px-9 tw-pt-8 tw-pb-12 
-      tw-border tw-border-gray-5 tw-rounded-3xl;
-    background: #161616;
+      tw-border tw-border-gray-5 tw-rounded-3xl tw-bg-gray-1;
     border: 5px solid black;
     width: 530px;
     min-height: 380px;
@@ -72,7 +70,7 @@
       height: 133px;
       background: center center no-repeat;
       background-size: 100% 100%;
-      cursor: pointer;
+      @apply tw-cursor-pointer;
     }
   }
 }

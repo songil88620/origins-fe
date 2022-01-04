@@ -72,7 +72,7 @@ export function BondingCurve() {
   const [batchId, setBatchId] = useState(0);
   const [hash, setHash] = useState('');
 
-  const comingSoon = false;
+  const comingSoon = true;
 
   useEffect(() => {
     const start = async () => {
